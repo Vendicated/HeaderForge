@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Header Forge</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Header Forge</h1>
+
+      <div class="header-actions">
+        <label class="inline-check" title="Pause or resume every rule">
+          <input id="master-toggle" type="checkbox" checked />
+          <span>All rules</span>
+        </label>
+        <button class="btn" id="import-btn" type="button">Import</button>
+        <button class="btn" id="export-btn" type="button">Export</button>
+        <button class="btn primary" id="add-rule" type="button">New rule</button>
+      </div>
+    </header>
+
+    <main class="page">
+      <p class="intro">Rewrite request and response headers for matching URLs.</p>
+
+      <section class="settings" aria-label="Advanced key matching">
+        <label class="inline-check">
+          <input id="advanced-toggle" type="checkbox" />
+          <span>Advanced key matching</span>
+        </label>
+        <p class="hint" id="advanced-meta">Wildcard and regex header names are ignored.</p>
+      </section>
+
+      <section class="problems" id="problems" hidden>
+        <h2>Issues</h2>
+        <ul id="problem-list"></ul>
+      </section>
+
+      <section class="rules" id="rules" aria-label="Header rules"></section>
+
+      <section class="empty" id="empty" hidden>
+        <p>No rules yet. Use “New rule” to add one.</p>
+      </section>
+
+      <p class="status" id="foot-status"></p>
+    </main>
+
+    <input id="import-file" type="file" accept="application/json,.json" hidden />
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="dashboard.js"></script>
+  </body>
+</html>

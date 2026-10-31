@@ -1,0 +1,11 @@
+{
+  "name": "header-forge",
+  "version": "1.0.3",
+  "private": true,
+  "type": "module",
+  "description": "Chrome extension for rewriting request and response headers.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "icons": "for s in 16 32 48 128; do rsvg-convert -w $s -h $s icons/icon.svg -o icons/icon$s.png; done"
+  }
+}
