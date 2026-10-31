@@ -35,6 +35,17 @@ Chrome 120+ is required.
 - Live status: compiled DNR rules, attached debugger tabs and invalid patterns.
 - Duplicate rules and import/export JSON.
 
+## Why
+
+I needed a quick way to modify headers on sites. And surprisingly, no good extension exists for this task.
+
+There are plenty out there but they all are slop. And most of them either have 0 users or are proprietary, making it impossible to trust them with access to access to every site you visit.
+
+A wise man once said "Never trust slop you didn't prompt yourself.". So here's my own slop (because unfortunately I do not have the time or inclination to make it myself). And surprisingly it's... not even slop?
+I'm positively surprised it managed to make such a good looking dashboard after I told it to make it that way. That's the only reason I'm even publishing it, because it's genuinely decent quality.
+
+For the UI, I just told it "Let's keep it simple. Simple background and colours, neutral ui, no gradients, no taglines, etc. Remove all unnecessary stuff, just have one simple header, short explanation and only necessary info" and it did it. If it's this easy, why does every AI website look SOOOO BAD?
+
 ## URL patterns
 
 The default **Wildcard** mode uses `*` as the only special character.
