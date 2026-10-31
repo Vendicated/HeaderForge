@@ -7,7 +7,10 @@ request-header and response-header sections.
 Built as a Manifest V3 extension with no build step, no external dependencies,
 and no network calls. Everything is stored locally in `chrome.storage.local`.
 
-This extension was written entirely by Deepseek v4.1 Flash in one single prompt (and a second one to make it change the dashboard page from ultra AI-slop to an actually nice looking page)
+<img width="1611" height="1169" alt="Screenshot From 2026-10-31 04-37-44" src="https://github.com/user-attachments/assets/aebe283d-b11a-4d26-a1c1-3130b97f90a4" />
+<img width="1136" height="416" alt="Screenshot From 2026-10-31 04-38-01" src="https://github.com/user-attachments/assets/39066d05-e774-4233-8071-afc2472ab4a8" />
+
+This extension was written entirely by Deepseek v4.1 Flash in one single prompt (and a second one to make it change the dashboard page from [ultra AI-slop](#ultra-ai-slop) to an actually nice looking page)
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-4f46e5) ![No build step](https://img.shields.io/badge/build-none-059669)
 
@@ -170,3 +173,8 @@ never leave your machine unless a rule you wrote sends them to a site.
 ## Licence
 
 Since this was 100% written by Deepseek, I claim no ownership and release it under CC0 1.0 Universal (public domain dedication).
+
+## Ultra AI Slop
+
+It made this UI at first until I told it to fix it lmao
+<img width="2037" height="1343" alt="Screenshot From 2026-10-31 04-18-37" src="https://github.com/user-attachments/assets/fe05ec80-528d-43de-8366-7cb14c9a6389" />
